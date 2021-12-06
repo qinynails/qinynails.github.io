@@ -55,19 +55,16 @@ body {
 .img-responsive {width: 300px; height: 300px;
 }
 
+.contact-image {width: 400px; height: 400px;
+}
+
 .first-container {border: 1px solid;
 	color: black;
 }
 
-.video-container {
-  background-color: rgba(31, 32, 31, 0.263);
-  text-align: center;
-  height: 200px;
-}
-
 .col-pic {border: 1px solid;
 	color: black;
-	height: 300px;
+	height: 315px;
 }
 
 .col-end {border: 1px solid;
@@ -104,7 +101,7 @@ input[type=submit]:hover {
 .container {
   border-radius: 5px;
   background-color: #fbf8fc;
-  padding: 10px;
+  padding: 20px;
 }
 
 /* Create two columns that float next to eachother */
