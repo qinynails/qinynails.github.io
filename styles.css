@@ -1,6 +1,7 @@
 body {
   font-family: "Short Stack", arial, sans-serif;
   background-color: #fbf8fc;
+  text-align: justify;
 }
 
 .topnav {
@@ -58,17 +59,21 @@ body {
 .contact-image {width: 400px; height: 400px;
 }
 
-.first-container {border: 1px solid;
-	color: black;
+.intro-container {
+  border-radius: 20px;
+  background-color: #ede3f1;
 }
 
-.col-pic {border: 1px solid;
-	color: black;
-	height: 315px;
+.pad-me {padding: 10px;
 }
 
-.col-end {border: 1px solid;
-	color: black;
+iframe {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.videotitle {text-align: center;
 }
 
 * {
@@ -141,6 +146,12 @@ td, th {
 
 tr:nth-child(even) {
   background-color: #ad9db3;
+}
+
+.btn {background-color: #ad9db3;
+  border-radius: 8px;
+  border-color: black;
+  margin: 5px;
 }
 
 footer {background-color: #ad9db3;
