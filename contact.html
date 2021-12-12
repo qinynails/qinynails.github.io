@@ -17,27 +17,27 @@
       <input type="text" placeholder="Search..">
     </div>
 
-
     <div class="container">
   <div class="row">
     <div class="column">
       <h2>Contact Me</h2>
     <p>Message me on <a href="https://www.instagram.com/qinynails/" target="_blank">Instagram</a> or leave a message below:</p>
     <br>
-      <form action="/action_page.php">
+      <form action="contacted.html">
         <label for="fname">First Name</label>
         <input class="contact" type="text" id="fname" name="firstname" placeholder="Your name..">
         <label for="lname">Last Name</label>
         <input class="contact" type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="email">Email</label>
+        <input class="email" type="text" id="email" placeholder="Your email address..">
         <label for="country">Country</label>
         <select id="country" name="country">
-          <option value="finland">Finland</option>
-          <option value="UK">UK</option>
-          <option value="usa">USA</option>
-          <option value="canada">Canada</option>
-          <option value="australia">Australia</option>
-          <option value="other">Other</option>
-
+          <option class="option" value="finland">Finland</option>
+          <option class="option" value="UK">UK</option>
+          <option class="option" value="usa">USA</option>
+          <option class="option" value="canada">Canada</option>
+          <option class="option" value="australia">Australia</option>
+          <option class="option" value="other">Other</option>
         </select>
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
@@ -51,9 +51,9 @@
 
     <footer>
       <p>Copyright © qinynails 2021</p>
-      <button type="button" class="btn btn-dark"><a href="https://www.instagram.com/qinynails/" target="_blank">Instagram</a></button>
-      <button type="button" class="btn btn-dark"><a href="https://www.tiktok.com/@qinynails?" target="_blank">TikTok</a></button>
-      <button type="button" class="btn btn-dark"><a href="https://www.youtube.com/channel/UCIRNVK6Xn02Xskjlfd4C1OQ" target="_blank">Youtube</a></button>
+     <a href="https://www.instagram.com/qinynails/" target="_blank" class="btn btn-link" role="button">Instagram</a>
+     <a href="https://www.tiktok.com/@qinynails?" target="_blank" class="btn btn-link" role="button">TikTok</a>
+     <a href="https://www.youtube.com/channel/UCIRNVK6Xn02Xskjlfd4C1OQ" target="_blank" class="btn btn-link" role="button">Youtube</a>
      </footer>
 
   </body>

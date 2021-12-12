@@ -66,6 +66,7 @@ body {
 
 iframe {
   width: 500px;
+  height: 300px;
   display: block;
   margin: 0 auto;
 }
@@ -77,8 +78,16 @@ iframe {
   box-sizing: border-box;
 }
 
-/* Style inputs */
 .contact, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.email {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -99,14 +108,12 @@ input[type=submit]:hover {
   background-color: #51bb56;
 }
 
-/* Style the container/contact section */
 .container {
   border-radius: 5px;
   background-color: #fbf8fc;
   padding: 20px;
 }
 
-/* Create two columns that float next to eachother */
 .column {
   float: left;
   width: 100%;
@@ -114,7 +121,6 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
